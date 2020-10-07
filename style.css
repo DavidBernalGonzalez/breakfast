@@ -1,0 +1,21 @@
+body{
+    background-color: #A82A2C;
+    font-weight: unset;
+}
+.toUpperCase{
+    text-transform: uppercase;
+}
+
+nav a::after{
+    content: "|";
+    margin-left: 5px;
+}
+
+nav a:last-child::after{
+    content: "";
+    margin-left: 0px;
+}
+
+.whiteTxtColor{
+    color: white;
+}
